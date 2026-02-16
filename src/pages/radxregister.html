@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width. initial-scale=1.0" />
+  <title>Radx Realstate</title>
+  <link rel="stylesheet" href="../styles/styleradx.css" />
+  <script src="../scripts/Validation.js"></script>
+  <style>
+    /* Style the form container */
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div class="wholeNavBar">
+      <img class="Logo" src="../../assets/Radx logo.png" alt="Radx Real Estate Logo" />
+      <div class="registration-form">
+        <a href="radxregister.html">
+          <h2 id="Register">Register Interest</h2>
+        </a>
+      </div>
+      <div class="menu-icon" onclick="toggleNavbar()">☰</div>
+    </div>
+  </div>
+  <div class="navbar" id="navbar">
+    <nav>
+      <a href="../../index.html">HOME</a>
+      <a href="About Us.html">ABOUT US</a>
+      <a href="Services.html">SERVICES </a>
+      <a href="Properties.html">PROPERTIES </a>
+      <a href="Contact Us.html">CONTACT US</a>
+    </nav>
+  </div>
+
+  <h3>REGISTER INTEREST</h3>
+  <form name="registrationForm" class="registrationForm">
+    <input type="text" name="firstName" placeholder="Enter first name" class="input" /><br />
+    <input type="text" name="lastName" placeholder="Enter last name" class="input" /><br />
+    <select name="number">
+      <option>+251</option>
+      <option>USA(+1)</option>
+      <option>UK(+44)</option>
+    </select>
+
+    <input type="text" name="mobile" placeholder="Mobile" class="input" /><br />
+    <label>How did you hear about us?</label>
+    <select name="hearAboutUs" id="hearAboutUs">
+      <option value="socialMedia">Social Media</option>
+      <option value="searchEngine">Search Engine</option>
+      <option value="wordOfMouth">Word of Mouth</option>
+      <option value="advertisement">Advertisement</option>
+      <option value="other">Other</option>
+    </select>
+
+    <p id="register">
+      <input type="checkbox" required />Keep me updated on news and offers
+    </p>
+    <p id="register">
+      <input type="checkbox" required />I agree to recieve notification on
+      whatsapp
+    </p>
+    <p id="register">
+      <input type="checkbox" required />I agree i have read the
+      <a href="Privacy and Policy.html">PRIVACY AND POLICY</a>of the website
+    </p>
+    <button type="button" onclick="register()" id="Registers">
+      Register Here
+    </button>
+  </form>
+  <footer>
+    <p>
+      &copy;All Rights Reserved!
+      <a href="Terms and Conditions.html">Terms and Condtions</a>
+      <a href="Privacy and Policy.html">Privacy and Policy</a>
+    </p>
+  </footer>
+</body>
+
+</html>

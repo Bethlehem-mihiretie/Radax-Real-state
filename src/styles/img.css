@@ -1,0 +1,223 @@
+body {
+  background-color: black;
+}
+img {
+  display: flex;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+header {
+  display: flex;
+
+  background-color: black;
+}
+ul {
+  display: flex;
+  column-gap: 100px;
+}
+ul {
+  diplay: flex;
+  gap: 120px;
+}
+ul li {
+  list-style: none;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-right: 100px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-top: 50px;
+}
+#cc {
+   color: orangered; 
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.b {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.menu {
+  margin-left: 650px;
+}
+a {
+  color: yellowgreen;
+  text-decoration: none;
+  font-size: 28px;
+}
+nav ul {
+  text-decoration: none;
+  margin-left: 600px;
+}
+h1 {
+  text-align: center;
+  margin-right: 500px;
+}
+h4 {
+  color: white;
+  font-size: 25px;
+}
+select {
+  box-sizing: 200px;
+}
+/* .zz {
+  width: 300px;
+  height: 400px;
+  margin-left: 800px;
+  border-radius: 0%;
+} */
+h1 {
+  color: orangered;
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  margin: 0body;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: orangered;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: dimgray;
+  border-radius: 50px;
+  /* box-shadow: orangered; */
+}
+
+#profile {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+#profile img {
+  border-radius: 0%;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#profile {
+  display: flex; /* Enable flexbox layout */
+  /* align-items: center; Vertically center the image and text */
+  gap: 200px; /* Add some space between the image and text */
+}
+#profile div {
+  flex: 1; /* Allow the text container to take up remaining space */
+}
+
+#profile h2 {
+  margin-bottom: 5px;
+}
+
+#profile p {
+  font-style: italic;
+}
+#myselect {
+  font-size: 1.2em;
+  padding: 0.5em;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+#contact ul {
+ list-style: circle;
+  padding: 0;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the contact form */
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+  margin-left: 150px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  width: calc(
+    70% - 22px
+  ); /* adjust width, taking into consideration paddings */
+}
+
+.contact-form textarea {
+  height: 150px; /* Set a default height for textareas*/
+}
+.contact-form button {
+  cursor: pointer;
+  background-color: orangered;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  width: auto;
+  padding: 12px;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: black;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main {
+  margin-left: 200px;
+  max-width: 800px;
+
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.contact-info {
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  color: #777;
+}

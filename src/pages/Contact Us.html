@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width. initial-scale=1.0" />
+  <title>Radx Realstate</title>
+  <link rel="stylesheet" href="../styles/styleradx.css" />
+  <script src="../scripts/Validation.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="wholeNavBar">
+      <img class="Logo" src="../../assets/Radx logo.png" alt="Radx Real Estate Logo" />
+      <div class="registration-form">
+        <a href="radxregister.html">
+          <h2 id="Register">Register Interest</h2>
+        </a>
+      </div>
+      <div class="menu-icon" onclick="toggleNavbar()">☰</div>
+    </div>
+  </div>
+  <div class="navbar" id="navbar">
+    <nav>
+      <a href="../../index.html">HOME</a>
+      <a href="About Us.html">ABOUT US</a>
+      <a href="Services.html">SERVICES </a>
+      <a href="Properties.html">PROPERTIES </a>
+      <a href="Contact Us.html">CONTACT US</a>
+    </nav>
+  </div>
+
+  <h1>Contact Us</h1>
+  <p>
+    We'd love to hear from you! Whether you have a question about our
+    properties, services, or anything else, our team is here to help. Reach
+    out to us through any of the methods below.
+  </p>
+  <div class="contact-form">
+    <form action="" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="phone">Phone:</label><br />
+      <select name="number">
+        <option>Ethiopia(+251)</option>
+        <option>USA(+1)</option>
+        <option>UK(+44)</option>
+      </select>
+
+      <input type="number" placeholder="Mobile" /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <div id="map">
+    <img src="../../assets/location.jpg" alt="here you can find us!" />
+  </div>
+  <div class="business-hours">
+    <h2 id="hero">Business Hours</h2>
+    <p id="lists">Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p id="lists">Saturday: 10:00 AM - 4:00 PM</p>
+    <p id="lists">Sunday: Closed</p>
+  </div>
+  <div class="social-media">
+    <p></p>
+    <a href="https://www.facebook.com/RadxRealEstate" target="_blank"><img src="../../assets/facebook.png"
+        alt="facebook" /></a>
+    <a href="https://www.x.com/RadxRealEstate" target="_blank"><img src="../../assets/x.png" alt="X-icon" /></a>
+    <a href="https://www.linkedin.com/company/radx-real-estate" target="_blank"><img src="../../assets/linkedin.png"
+        alt="linkedin" /></a>
+  </div>
+
+  <footer>
+    <p>
+      &copy;All Rights Reserved!
+      <a href="Terms and Conditions.html">Terms and Condtions</a>
+      <a href="Privacy and Policy.html">Privacy and Policy</a>
+    </p>
+  </footer>
+</body>
+
+</html>

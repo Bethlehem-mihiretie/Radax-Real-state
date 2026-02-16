@@ -1,0 +1,29 @@
+{
+  "name": "radx-real-estate",
+  "version": "1.0.0",
+  "description": "Radx Real Estate website - A modern real estate platform for property listings in Ethiopia",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx http-server -p 8080 -o -c-1",
+    "serve": "python -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/radx-realstate.git"
+  },
+  "keywords": [
+    "real-estate",
+    "property",
+    "ethiopia",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Radx Real Estate Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
